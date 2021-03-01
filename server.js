@@ -24,9 +24,18 @@ text: "Hello!",
 type: "PLAYING",
 status: "ONLINE",
 time: 4
+})
 
 bot.status({
 text: "the cmds folder.",
 type' "WATCHING",
 status: "IDLE",
 time: 4
+})
+//For more go to this link: https://dbd.leref.ga/guide/bot-status
+
+//Variables
+bot.variables({
+example: "0",
+pene: "undefined"
+})
