@@ -15,6 +15,18 @@ bot.command({
  })
 }
 
-\\^^^ Commands will go to the cmds folder.
+//^^^ Commands will go to the cmds folder.
 
-\\Status
+//Status
+
+bot.status({
+text: "Hello!",
+type: "PLAYING",
+status: "ONLINE",
+time: 4
+
+bot.status({
+text: "the cmds folder.",
+type' "WATCHING",
+status: "IDLE",
+time: 4
